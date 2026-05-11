@@ -36,7 +36,7 @@ RUN trivy fs --exit-code 1 --severity HIGH,CRITICAL --no-progress ./src || true
 RUN helm lint ./helm
 
 # Scan helm chart (config/misconfig scan)
-RUN trivy config --exit-code 1 --severity HIGH,CRITICAL --no-progress ./helm || true
+RUN trivy config --exit-code 1 --severity HIGH,CRITICAL ./helm || true
 
 # ---- runtime stage ----
 FROM python:3.12-slim
