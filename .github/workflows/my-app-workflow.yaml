@@ -76,3 +76,4 @@ jobs:
           event-type: my-app-image-published
           client-payload: |
             {"image_tag":"${{ steps.meta.outputs.version }}"}
+            
