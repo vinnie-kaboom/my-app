@@ -1,4 +1,4 @@
-# my-appp
+```mermaid
 flowchart TD
     A([Start]) --> B{How was it triggered?}
 
@@ -55,6 +55,6 @@ flowchart TD
     style B fill:#4a4a00,color:#fff
     style G fill:#4a4a00,color:#fff
     style P fill:#4a4a00,color:#fff
-
+```
 
 
