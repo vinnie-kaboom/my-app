@@ -1,6 +1,7 @@
 """
 Simple HTTP app.
 BUILD_VERSION, APP_COLOR, and ENVIRONMENT are injected at deploy time.
+this document
 """
 import json
 import os
