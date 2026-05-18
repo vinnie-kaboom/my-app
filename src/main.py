@@ -10,9 +10,9 @@ from datetime import datetime, timezone
 from http.server import HTTPServer, BaseHTTPRequestHandler
 
 VERSION = os.environ.get("BUILD_VERSION", "dev")
-APP_COLOR = os.environ.get("APP_COLOR", "blue")
+APP_COLOR = os.environ.get("APP_COLOR", "orange")
 ENVIRONMENT = os.environ.get("ENVIRONMENT", "unknown")
-DEMO_BANNER = os.environ.get("DEMO_BANNER", "PIPELINE DEMO")
+DEMO_BANNER = os.environ.get("DEMO_BANNER", "UPDATED - PIPELIN")
 HOSTNAME = socket.gethostname()
 
 
