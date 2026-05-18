@@ -12,7 +12,7 @@ from http.server import HTTPServer, BaseHTTPRequestHandler
 VERSION = os.environ.get("BUILD_VERSION", "dev")
 APP_COLOR = os.environ.get("APP_COLOR", "orange")
 ENVIRONMENT = os.environ.get("ENVIRONMENT", "unknown")
-DEMO_BANNER = os.environ.get("DEMO_BANNER", "UPDATED - PIPELIN")
+DEMO_BANNER = os.environ.get("DEMO_BANNER", "UPDATED - PIPELINE")
 HOSTNAME = socket.gethostname()
 
 
